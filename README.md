@@ -7,7 +7,7 @@
 
 **RESTack** is an experimental REST API developed exclusively for educational purposes.
 
-Currently, there are some different operations that can be performed, such as a CRUD for users and projects through a ManyToMany association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
+Currently, there are some different operations that can be performed, such as a CRUD for users and projects through a Many-To-Many association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
 
 <br/>
 
