@@ -149,15 +149,15 @@ Used to add a _project_ to a _user_ through the user's `id`.
 
 Some other routes available are:
 
-- **POST** @ _http://localhost:3000/project/_: Create a new project with `name`, `stack`
+- **POST** @ _http://localhost:3000/project/_: Create new project with `name`, `stack`
 
-- **PUT** @ _http://localhost:3000/project/id_: Update an existing project by `id`
+- **PUT** @ _http://localhost:3000/project/id_: Update existing project by `id`
 
-- **PUT** @ _http://localhost:3000/user/id_: Update an existing user by `id`
+- **PUT** @ _http://localhost:3000/user/id_: Update existing user by `id`
 
-- **DELETE** @ _http://localhost:3000/project/id_: Delete a project by `id`
+- **DELETE** @ _http://localhost:3000/project/id_: Delete project by `id`
 
-- **DELETE** @ _http://localhost:3000/user/id_: Delete a user by `id`
+- **DELETE** @ _http://localhost:3000/user/id_: Delete user by `id`
 
 <br/>
 
