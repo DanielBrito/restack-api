@@ -14,7 +14,13 @@ const add = async (project) => {
 
     console.log("Project saved");
 
-    return newProject;
+    const createdProject = {
+      id: newProject.id,
+      name: newProject.name,
+      stack: newProject.stack,
+    };
+
+    return createdProject;
   } catch (err) {
     console.log(err.message);
     return err;
