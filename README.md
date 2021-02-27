@@ -137,7 +137,7 @@ Some other routes available are:
 
 - **PUT** @ _http://localhost:3000/project/id_: Update an existing project by `id`
 
-- **PUT** @ _http://localhost:3000/user/id_: Updata an existing user by `id`
+- **PUT** @ _http://localhost:3000/user/id_: Update an existing user by `id`
 
 - **DELETE** @ _http://localhost:3000/project/id_: Delete a project by `id`
 
