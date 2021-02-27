@@ -1,8 +1,13 @@
-# 🔄 RESTack API
+<div align="center">
+  <h1><strong> ⬆️ RESTack API ⬇️ </strong></h1>
+  <img src="assets/restack-api.jpg" alt="RESTack API">
+</div>
+
+<br/>
 
 **RESTack** is an experimental REST API developed exclusively for educational purposes.
 
-There are some different operations that can be performed, such as a CRUD for users and projects through a ManyToMany association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
+Currently, there are some different operations that can be performed, such as a CRUD for users and projects through a ManyToMany association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
 
 <br/>
 
@@ -43,7 +48,18 @@ There are some different operations that can be performed, such as a CRUD for us
 
 ## ✅ Installation & Execution
 
-Run the following command to install the dependencies from _package.json_:
+First of all, configure the `.env` file with the information related to secrets and database configuration:
+
+```
+JWT_SECRET=#
+PG_PASSWORD=#
+PROJECT_NAME=restack
+ADMIN=#
+HOST=localhost
+DIALECT=postgres
+```
+
+Then, run the following command to install the dependencies from _package.json_:
 
 `yarn install`
 
@@ -51,7 +67,7 @@ Run the migration from Sequelize:
 
 `sequelize db:migrate`
 
-Start the project with:
+Finally, start the project with:
 
 `yarn start`
 
