@@ -2,7 +2,7 @@
 
 **RESTack** is an experimental REST API developed exclusively for educational purposes.
 
-There are some different operations that can be performed, such as a CRUD for users, and also the creation of projects. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
+There are some different operations that can be performed, such as a CRUD for users and projects through a ManyToMany association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
 
 <br/>
 
@@ -109,7 +109,7 @@ Used to retrieve a _user_ by its `id`, or a message if it not exists.
 
 **GET** @ _http://localhost:3000/project/id_
 
-Used to tetrieve a _project_ by its `id`, or message if it not exists.
+Used to retrieve a _project_ by its `id`, or message if it not exists.
 
 ![GET_200](assets/get-project-id-200.png)
 
