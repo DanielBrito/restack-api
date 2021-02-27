@@ -41,11 +41,19 @@ There are some different operations that can be performed, such as a CRUD for us
 
 <br/>
 
-## ✅ Installation
+## ✅ Installation & Execution
 
 Run the following command to install the dependencies from _package.json_:
 
 `yarn install`
+
+Run the migration from Sequelize:
+
+`sequelize db:migrate`
+
+Start the project with:
+
+`yarn start`
 
 <br/>
 
