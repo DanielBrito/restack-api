@@ -149,7 +149,7 @@ Used to add a _project_ to a _user_ through the user's `id`.
 
 Some other routes available are:
 
-- **POST** @ _http://localhost:3000/project/_: Create new project with `name`, `stack`
+- **POST** @ _http://localhost:3000/project_: Create new project with `name`, `stack`
 
 - **PUT** @ _http://localhost:3000/project/id_: Update existing project by `id`
 
