@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config()
 
 module.exports = {
   development: {
@@ -8,4 +8,4 @@ module.exports = {
     host: process.env.HOST,
     dialect: process.env.DIALECT,
   },
-};
+}
