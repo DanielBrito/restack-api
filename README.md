@@ -9,13 +9,9 @@
 
 Currently, there are some different operations that can be performed, such as a CRUD for users and projects through a Many-To-Many association. Furthermore, there are some rules for route access, e.g. only authenticated users can create, update and delete projects/users, but retrieving them is allowed for everyone.
 
-<br/>
-
 ---
 
-<br/>
-
-## 💟 Tools & Dependencies Used
+## :toolbox: Tools & Dependencies
 
 - Node.js
 - Express
@@ -30,21 +26,13 @@ Currently, there are some different operations that can be performed, such as a 
 - Insomnia
 - DBeaver
 
-<br/>
-
 ---
-
-<br/>
 
 ## ♾️ Helpful Content
 
 [HTTP response status codes (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
-<br/>
-
 ---
-
-<br/>
 
 ## ✅ Installation & Execution
 
@@ -71,11 +59,7 @@ Finally, start the project with:
 
 `yarn start`
 
-<br/>
-
 ---
-
-<br/>
 
 ## ▶️ Examples
 
